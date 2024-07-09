@@ -137,6 +137,7 @@ font-weight: 700;
     display: flex;
     justify-content: ;
     align-items: center;
+    padding-left: 110px;
 }
 .midnight-button {
        color: rgb(255, 255, 255);
@@ -248,13 +249,21 @@ line-height: 32px;
 
 .mid-content {
    
-    border-radius: 50% red;
-    padding: 20px;display: flex;
+    border-radius: 50%;
+    padding: 20px;
+    border: 10px solid red;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .righ-content {
-    width: 33%;
+    width: 33%; 
+    padding-left: 118px;
+   
+}
+.righ-content img {
+    width: 140px;
+    height: 140px;
 }
 
 /* holyday styles */
@@ -363,4 +372,69 @@ margin-bottom: 50px;
 .item img {
     width: 100%;
 height: 100%;
+}
+
+
+/* Subscribe Newsletter style */
+
+.Subscribe-section-container {
+    background-color: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Subscribe-section-container h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.Subscribe-section-container p {
+    color: rgba(17, 8, 2, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.subscribe-container {
+    width: 648px;
+height: 72px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.email-input {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+}
+
+.email-input::placeholder {
+    color: #aaa;
+}
+.subscribe-button {
+    width: 210px;height: 72px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.subscribe-button:hover {
+    background-color: darkred;
 }
